@@ -1,0 +1,2 @@
+select roll_number, name from student_information, faculty_information 
+where advisor = employee_id and (gender ='M' and salary > '15000' or gender ='F' and salary >'20000');
